@@ -78,6 +78,8 @@ conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cud
 2. Install dependencies:
 ``` bash
 pip install -r requirements.txt
+# if confront with a problem with mmcv-full on its building, execute this command
+pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.9.0/index.html
 conda install -c bioconda tbb=2020.2
 ```
 
